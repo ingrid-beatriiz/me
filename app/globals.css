@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #34384B; /* Fundo cinza-azulado escuro */
+  color: #a881af; /* Roxo suave para o texto */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.profile-card {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #4a4d6b; /* Borda mais clara */
+  border-radius: 8px;
+}
+
+.profile-card h1 {
+  margin-bottom: 20px;
+  color: #b7a2d4; /* Roxo claro para o título */
+}
